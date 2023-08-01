@@ -1,0 +1,118 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    padding: 2% 5% 1% ;
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+}
+#search{
+   background-color: yellow; 
+   border-radius: 50%;
+   background-size: 10%;
+   transform: scale(0.6);
+}
+h1 ,h2{
+    text-align: center;
+    font-size: 250%;
+}
+img{
+    width: 30%;
+    height: 33%;
+    margin: 0px;
+    margin-top: 15px ;
+}
+#man_pic{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+}
+.header{
+    display: flex;
+    justify-content: flex-start;
+    justify-content: center;
+    justify-content: space-between;
+    background-color:  rgb(12, 48, 72);
+    padding: 1%;
+}
+.media{
+    padding: 5%;
+    width: 100%;
+    height: 70vh;
+    background-color: rgb(14, 52, 67);
+    display: flex;
+}
+#ancher{
+    padding-top: 1%;
+}
+a{
+   
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    color:rgb(255, 255, 255);
+}
+a:hover{
+    border-bottom: 3px solid yellow;
+}
+h3{
+    padding-top: 15px;
+    padding-left: 5px;
+    font-size: 110%;
+    color: white;
+}
+#header{
+    display: flex;
+}
+#Creative{
+    font-size: medium;
+    margin-bottom: 5px;
+}
+span{
+    color: yellow;
+}
+#big_font{
+    font-size: 300%;
+    font-weight: bolder;
+    color: white;
+    background-color:  rgb(14, 52, 67);
+}
+
+p{
+    color: rgb(255, 255, 255);
+    font-style: oblique;
+    font-weight: bold;
+    margin: 5px;
+    padding: 10px;
+}
+input{
+    width: 40%;
+    height: 40px;
+    border-radius: 15px;
+    margin: 40px 20px 40px;
+    padding: 10px;
+    display: grid;
+    font-weight: bold;
+    font-size: 100%;
+}
+button{
+    width: 15%;
+    height: 10%;
+    border-radius: 20px;
+    margin: 10px;
+    padding-top: 5px;
+    padding: 3px 1px 5px 25px;
+    font-weight: bold;
+    font-size: 100%;
+    background-color: yellow;
+}
+button:hover{
+    cursor: pointer;
+    background-color: black;
+    color: yellow;
+}
+
+
